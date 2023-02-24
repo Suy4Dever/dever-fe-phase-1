@@ -259,4 +259,25 @@ header form .header__input--button {
 }
 .section__3 .section__3__blog1 {
   margin-bottom: 120px;
+}
+
+.section__4 {
+  background-color: #f4f5f7;
+  width: 1440px;
+  padding: 60px 0px;
+  color: #18191f;
+}
+.section__4 .section__4__title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.section__4 .section__4__description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 48px;
 }/*# sourceMappingURL=style.css.map */
