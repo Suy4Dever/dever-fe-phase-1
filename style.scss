@@ -103,7 +103,7 @@ header {
   }
 }
 
-article {
+.section__1 {
   .article__introduction {
     text-align: center;
 
@@ -125,6 +125,35 @@ article {
       margin-top: 30px;
       width: 994px;
       height: 110px;
+    }
+  }
+
+  .article__detail {
+    .article__detail--box {
+      text-align: center;
+      margin-top: 90px;
+
+      img {
+        width: 76px;
+        height: 76px;
+        margin-bottom: 10px;
+      }
+
+      .box--header {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 33px;
+      }
+
+      .box--description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        display: inline-block;
+        width: 298px;
+        height: 84px;
+      }
     }
   }
 }
