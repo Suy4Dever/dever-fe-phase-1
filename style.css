@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-image: url("./img/Background-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 754px;
+  width: 1440px;
+}
+header nav {
+  margin-top: 45px;
+  margin-left: 586px;
+}
+header nav .nav__link:link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 20px;
+  margin-right: 40px;
+}
+header nav .nav__link:visited {
+  color: black;
+}
+header nav .button {
+  padding: 10px 20px;
+  background-color: #F84646;
+  color: white !important;
+}/*# sourceMappingURL=style.css.map */
