@@ -286,15 +286,33 @@ header form .header__input--button {
   height: 336px;
   margin: 0px auto;
   display: flex;
-  align-items: center;
+  gap: 24px;
 }
 .section__4 .logo-container img {
   display: inline-block;
-  width: 50%;
-  height: 50%;
+  width: 170px;
+  height: 96px;
+  margin: auto 0px;
+  border-radius: 16px;
 }
 .section__4 .logo-container .column {
   display: inline-block;
   height: 336px;
   width: 170px;
+}
+.section__4 .logo-container .column__1,
+.section__4 .logo-container .column__5 {
+  padding: 120px 0px;
+}
+.section__4 .logo-container .column__2,
+.section__4 .logo-container .column__4 {
+  padding: 60px 0px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 24px;
+}
+.section__4 .logo-container .column__3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 24px;
 }/*# sourceMappingURL=style.css.map */

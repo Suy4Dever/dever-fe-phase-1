@@ -309,18 +309,39 @@ header {
     height: 336px;
     margin: 0px auto;
     display: flex;
-    align-items: center;
+    gap: 24px;
 
     img {
       display: inline-block;
-      width: 50%;
-      height: 50%;
+      width: 170px;
+      height: 96px;
+      margin: auto 0px;
+      border-radius: 16px;
     }
 
     .column {
       display: inline-block;
       height: 336px;
       width: 170px;
+    }
+
+    .column__1,
+    .column__5 {
+      padding: 120px 0px;
+    }
+
+    .column__2,
+    .column__4 {
+      padding: 60px 0px;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      row-gap: 24px;
+    }
+
+    .column__3 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 24px;
     }
   }
 }
