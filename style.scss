@@ -104,21 +104,24 @@ header {
 }
 
 .section__1 {
+  width: 1440px;
   .article__introduction {
     text-align: center;
+    width: 100%;
 
     .article__introduction--title {
-      display: inline-block;
+      width: 100%;
+      text-align: center;
       font-size: 36px;
       font-weight: 800;
       line-height: 49px;
       margin-top: 120px;
-      width: 428px;
       height: 56px;
     }
 
     .article__introduction--description {
-      display: inline-block;
+      margin: 0px auto;
+      text-align: center;
       font-weight: 400;
       font-size: 24px;
       line-height: 40px;
@@ -129,9 +132,21 @@ header {
   }
 
   .article__detail {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 112px;
+    margin: 0px 120px;
+    width: 1200px;
+    height: 507px;
+    // justify-content: center;
+
     .article__detail--box {
       text-align: center;
       margin-top: 90px;
+      width: 320px;
+      height: 211px;
 
       img {
         width: 76px;
