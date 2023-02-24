@@ -199,6 +199,18 @@ header form .header__input--button {
   line-height: 31px;
   flex-grow: 1;
 }
+.section__2 .section__2__box p.--p1 {
+  width: 146px;
+}
+.section__2 .section__2__box p.--p2 {
+  width: 199px;
+}
+.section__2 .section__2__box p.--p3 {
+  width: 181px;
+}
+.section__2 .section__2__box p.--p4 {
+  width: 182px;
+}
 .section__2 .section__2__box img {
   width: 32px;
   height: 32px;

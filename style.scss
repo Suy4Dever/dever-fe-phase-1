@@ -210,6 +210,18 @@ header {
       font-weight: 700;
       line-height: 31px;
       flex-grow: 1;
+      &.--p1 {
+        width: 146px;
+      }
+      &.--p2 {
+        width: 199px;
+      }
+      &.--p3 {
+        width: 181px;
+      }
+      &.--p4 {
+        width: 182px;
+      }
     }
 
     img {
