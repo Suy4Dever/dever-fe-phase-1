@@ -240,6 +240,7 @@ header {
     font-weight: 700;
     line-height: 76px;
     color: #2e2e2e;
+    margin-bottom: 40px;
   }
 
   .blog-description {
@@ -247,6 +248,8 @@ header {
     font-weight: 400;
     line-height: 32px;
     color: #808080;
+    margin-bottom: 80px;
+    width: 524.31px;
   }
 
   button {
@@ -258,11 +261,23 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    width: 160.4px;
   }
 
   img {
+    display: inline-block;
     border-radius: 8px;
     width: 505.26px;
     height: 480px;
+  }
+
+  .section__3__blog1,
+  .section__3__blog2 {
+    display: flex;
+    gap: 85.21px;
+  }
+
+  .section__3__blog1 {
+    margin-bottom: 120px;
   }
 }
