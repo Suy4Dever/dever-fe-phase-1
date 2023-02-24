@@ -290,6 +290,8 @@ header form .header__input--button {
 }
 .section__4 .logo-container img {
   display: inline-block;
+  width: 50%;
+  height: 50%;
 }
 .section__4 .logo-container .column {
   display: inline-block;
