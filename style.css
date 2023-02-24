@@ -102,6 +102,7 @@ header form .header__input--button {
 
 .section__1 {
   width: 1440px;
+  margin-bottom: 140px;
 }
 .section__1 .article__introduction {
   text-align: center;
@@ -135,7 +136,6 @@ header form .header__input--button {
        column-gap: 112px;
   margin: 0px 120px;
   width: 1200px;
-  height: 507px;
 }
 .section__1 .article__detail .article__detail--box {
   text-align: center;
@@ -161,4 +161,10 @@ header form .header__input--button {
   display: inline-block;
   width: 298px;
   height: 84px;
+}
+
+.section__2 {
+  width: 1440px;
+  height: 376px;
+  background-color: #f84646;
 }/*# sourceMappingURL=style.css.map */

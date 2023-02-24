@@ -105,6 +105,7 @@ header {
 
 .section__1 {
   width: 1440px;
+  margin-bottom: 140px;
   .article__introduction {
     text-align: center;
     width: 100%;
@@ -139,7 +140,6 @@ header {
     column-gap: 112px;
     margin: 0px 120px;
     width: 1200px;
-    height: 507px;
     // justify-content: center;
 
     .article__detail--box {
@@ -171,4 +171,10 @@ header {
       }
     }
   }
+}
+
+.section__2 {
+  width: 1440px;
+  height: 376px;
+  background-color: #f84646;
 }
