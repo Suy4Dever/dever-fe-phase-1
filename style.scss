@@ -13,7 +13,7 @@ header {
   background-size: cover;
   height: 754px;
   width: 1440px;
-
+  position: relative;
   nav {
     margin-top: 45px;
     margin-left: 586px;
@@ -31,11 +31,33 @@ header {
       &:visited {
         color: black;
       }
+      .button {
+        padding: 10px 20px;
+        background-color: #f84646;
+        color: white !important;
+      }
     }
-    .button {
-      padding: 10px 20px;
-      background-color: #F84646;
-      color: white !important;
-    }
+  }
+
+  .header__intro {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 82px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    width: 665px;
+  }
+
+  .header__description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    width: 650px;
+    height: 99px;
+    position: absolute;
+    top: 384px;
+    left: 120px;
   }
 }
