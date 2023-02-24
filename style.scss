@@ -14,6 +14,15 @@ header {
   height: 754px;
   width: 1440px;
   position: relative;
+
+  .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f84646;
+    color: white !important;
+    border: none;
+  }
+
   nav {
     margin-top: 45px;
     margin-left: 586px;
@@ -30,11 +39,6 @@ header {
       }
       &:visited {
         color: black;
-      }
-      .button {
-        padding: 10px 20px;
-        background-color: #f84646;
-        color: white !important;
       }
     }
   }
@@ -59,5 +63,41 @@ header {
     position: absolute;
     top: 384px;
     left: 120px;
+  }
+
+  form {
+    position: absolute;
+    left: 120px;
+    top: 533px;
+
+    .header__input {
+      display: inline-block;
+      padding: 18px 32px;
+      border-radius: 8px;
+      border: none;
+      width: 502px;
+      height: 72px;
+      &::placeholder {
+        font-size: 16px;
+        line-height: 36px;
+        letter-spacing: 0.2px;
+        font-weight: 700;
+        opacity: 0.4;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .header__input--button {
+      display: inline-block;
+      font-size: 16px;
+      line-height: 36px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      padding: 12px 38px;
+      border-radius: 8px;
+      margin-left: -142.75px;
+    }
   }
 }

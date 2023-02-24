@@ -15,6 +15,13 @@ header {
   width: 1440px;
   position: relative;
 }
+header .button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f84646;
+  color: white !important;
+  border: none;
+}
 header nav {
   margin-top: 45px;
   margin-left: 586px;
@@ -30,11 +37,6 @@ header nav .nav__link:link {
 }
 header nav .nav__link:visited {
   color: black;
-}
-header nav .nav__link .button {
-  padding: 10px 20px;
-  background-color: #f84646;
-  color: white !important;
 }
 header .header__intro {
   font-size: 64px;
@@ -55,4 +57,44 @@ header .header__description {
   position: absolute;
   top: 384px;
   left: 120px;
+}
+header form {
+  position: absolute;
+  left: 120px;
+  top: 533px;
+}
+header form .header__input {
+  display: inline-block;
+  padding: 18px 32px;
+  border-radius: 8px;
+  border: none;
+  width: 502px;
+  height: 72px;
+}
+header form .header__input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  opacity: 0.4;
+}
+header form .header__input::placeholder {
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  opacity: 0.4;
+}
+header form .header__input:focus {
+  outline: none;
+}
+header form .header__input--button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  padding: 12px 38px;
+  border-radius: 8px;
+  margin-left: -142.75px;
 }/*# sourceMappingURL=style.css.map */
