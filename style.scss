@@ -345,3 +345,41 @@ header {
     }
   }
 }
+
+.section__5 {
+  width: 1440px;
+  padding: 160px 0px;
+  text-align: center;
+
+  img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .section__5--title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .section__5--description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+
+  button {
+    padding: 25px 40px;
+    color: white;
+    background-color: #f84646;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    border: none;
+    border-radius: 8px;
+  }
+}
