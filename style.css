@@ -214,4 +214,36 @@ header form .header__input--button {
 .section__2 .section__2__box img {
   width: 32px;
   height: 32px;
+}
+
+.section__3 {
+  width: 1440px;
+  padding: 160px 120px;
+}
+.section__3 .blog-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+  color: #2e2e2e;
+}
+.section__3 .blog-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #808080;
+}
+.section__3 button {
+  padding: 12px 58.2px;
+  background-color: #f84646;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.section__3 img {
+  border-radius: 8px;
+  width: 505.26px;
+  height: 480px;
 }/*# sourceMappingURL=style.css.map */
