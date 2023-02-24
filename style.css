@@ -98,4 +98,26 @@ header form .header__input--button {
   border-radius: 8px;
   margin-left: -142.75px;
   cursor: pointer;
+}
+
+article .article__introduction {
+  text-align: center;
+}
+article .article__introduction .article__introduction--title {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 49px;
+  margin-top: 120px;
+  width: 428px;
+  height: 56px;
+}
+article .article__introduction .article__introduction--description {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  margin-top: 30px;
+  width: 994px;
+  height: 110px;
 }/*# sourceMappingURL=style.css.map */
