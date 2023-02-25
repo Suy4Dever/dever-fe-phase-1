@@ -407,10 +407,23 @@ footer {
   }
 
   .footer__copyright {
-    img {
-      width: 32px;
-      height: 32px;
-      margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      gap: 23px;
+      img {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+      }
     }
+  }
+
+  .footer {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 26px;
   }
 }

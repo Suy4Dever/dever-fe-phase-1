@@ -371,8 +371,21 @@ footer .footer__copyright p {
   line-height: 32px;
   margin-bottom: 24px;
 }
-footer .footer__copyright img {
+footer .footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__copyright div {
+  display: flex;
+  gap: 23px;
+}
+footer .footer__copyright div img {
   width: 32px;
   height: 32px;
-  margin-right: 24px;
+  display: inline-block;
+}
+footer .footer {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 26px;
 }/*# sourceMappingURL=style.css.map */
