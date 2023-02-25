@@ -352,11 +352,29 @@ header {
   padding: 160px 0px;
   text-align: center;
 
-  img {
+  .section5--logo {
     display: inline-block;
-    width: 120px;
-    height: 120px;
-    margin-bottom: 10px;
+    position: relative;
+
+    img {
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 10px;
+      z-index: 1;
+      // position: absolute;
+    }
+
+    .ellipse {
+      img {
+        width: 61px !important;
+        height: 61px !important;
+        z-index: -1;
+        position: absolute;
+        left: 55px;
+        top: 6px;
+      }
+    }
   }
 
   .section5--title {
