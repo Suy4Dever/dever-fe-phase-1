@@ -410,13 +410,22 @@ footer {
     display: flex;
     justify-content: space-between;
 
+    p {
+      margin-bottom: 0px;
+    }
+
     div {
       display: flex;
-      gap: 23px;
+      gap: 24px;
+
       img {
         width: 32px;
         height: 32px;
         display: inline-block;
+      }
+
+      .fb-icon {
+        margin-right: 4px;
       }
     }
   }

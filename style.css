@@ -375,14 +375,20 @@ footer .footer__copyright {
   display: flex;
   justify-content: space-between;
 }
+footer .footer__copyright p {
+  margin-bottom: 0px;
+}
 footer .footer__copyright div {
   display: flex;
-  gap: 23px;
+  gap: 24px;
 }
 footer .footer__copyright div img {
   width: 32px;
   height: 32px;
   display: inline-block;
+}
+footer .footer__copyright div .fb-icon {
+  margin-right: 4px;
 }
 footer .footer {
   display: flex;
