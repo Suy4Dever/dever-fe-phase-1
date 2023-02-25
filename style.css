@@ -22,6 +22,9 @@ header .button {
   color: white !important;
   border: none;
 }
+header .button:hover {
+  background-color: #f98282;
+}
 header nav {
   margin-top: 45px;
   margin-left: 586px;
@@ -99,6 +102,9 @@ header form .header__input--button {
   border-radius: 8px;
   margin-left: -142.75px;
   cursor: pointer;
+}
+header form .header__input--button:hover {
+  background-color: #f98282;
 }
 
 .section1 {
@@ -246,6 +252,10 @@ header form .header__input--button {
   font-weight: 400;
   line-height: 24px;
   width: 160.4px;
+  cursor: pointer;
+}
+.section3 button:hover {
+  background-color: #f98282;
 }
 .section3 img {
   display: inline-block;
@@ -363,6 +373,10 @@ header form .header__input--button {
   line-height: 20px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+.section5 button:hover {
+  background-color: #f98282;
 }
 
 footer {
