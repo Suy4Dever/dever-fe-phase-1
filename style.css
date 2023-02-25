@@ -101,15 +101,15 @@ header form .header__input--button {
   cursor: pointer;
 }
 
-.section__1 {
+.section1 {
   width: 1440px;
   margin-bottom: 140px;
 }
-.section__1 .article__introduction {
+.section1 .article__introduction {
   text-align: center;
   width: 100%;
 }
-.section__1 .article__introduction .article__introduction--title {
+.section1 .article__introduction .article__introduction--title {
   width: 100%;
   text-align: center;
   font-size: 36px;
@@ -118,7 +118,7 @@ header form .header__input--button {
   margin-top: 120px;
   height: 56px;
 }
-.section__1 .article__introduction .article__introduction--description {
+.section1 .article__introduction .article__introduction--description {
   margin: 0px auto;
   text-align: center;
   font-weight: 400;
@@ -128,7 +128,7 @@ header form .header__input--button {
   width: 994px;
   height: 110px;
 }
-.section__1 .article__detail {
+.section1 .article__detail {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -138,23 +138,23 @@ header form .header__input--button {
   margin: 0px 120px;
   width: 1200px;
 }
-.section__1 .article__detail .article__detail--box {
+.section1 .article__detail .article__detail--box {
   text-align: center;
   margin-top: 90px;
   width: 320px;
   height: 211px;
 }
-.section__1 .article__detail .article__detail--box img {
+.section1 .article__detail .article__detail--box img {
   width: 76px;
   height: 76px;
   margin-bottom: 10px;
 }
-.section__1 .article__detail .article__detail--box .box--header {
+.section1 .article__detail .article__detail--box .box--header {
   font-size: 24px;
   font-weight: 800;
   line-height: 33px;
 }
-.section__1 .article__detail .article__detail--box .box--description {
+.section1 .article__detail .article__detail--box .box--description {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -164,27 +164,27 @@ header form .header__input--button {
   height: 84px;
 }
 
-.section__2 {
+.section2 {
   width: 1440px;
   background-color: #f84646;
   padding: 75px 0px;
   color: white;
 }
-.section__2 .section__2__header {
+.section2 .section2__header {
   font-size: 48px;
   font-weight: 800;
   line-height: 64px;
   text-align: center;
   margin-bottom: 8px;
 }
-.section__2 .section__2__description {
+.section2 .section2__description {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
   margin-bottom: 60px;
 }
-.section__2 .section__2__box {
+.section2 .section2__box {
   width: 1200px;
   margin: 0px auto;
   padding: 0px 63px;
@@ -192,7 +192,7 @@ header form .header__input--button {
   gap: 45px;
   align-items: center;
 }
-.section__2 .section__2__box p {
+.section2 .section2__box p {
   display: inline-block;
   height: 62px;
   font-size: 18px;
@@ -200,35 +200,35 @@ header form .header__input--button {
   line-height: 31px;
   flex-grow: 1;
 }
-.section__2 .section__2__box p.--p1 {
+.section2 .section2__box p.--p1 {
   width: 146px;
 }
-.section__2 .section__2__box p.--p2 {
+.section2 .section2__box p.--p2 {
   width: 199px;
 }
-.section__2 .section__2__box p.--p3 {
+.section2 .section2__box p.--p3 {
   width: 181px;
 }
-.section__2 .section__2__box p.--p4 {
+.section2 .section2__box p.--p4 {
   width: 182px;
 }
-.section__2 .section__2__box img {
+.section2 .section2__box img {
   width: 32px;
   height: 32px;
 }
 
-.section__3 {
+.section3 {
   width: 1440px;
   padding: 160px 120px;
 }
-.section__3 .blog-title {
+.section3 .blog-title {
   font-size: 64px;
   font-weight: 700;
   line-height: 76px;
   color: #2e2e2e;
   margin-bottom: 40px;
 }
-.section__3 .blog-description {
+.section3 .blog-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -236,7 +236,7 @@ header form .header__input--button {
   margin-bottom: 80px;
   width: 524.31px;
 }
-.section__3 button {
+.section3 button {
   padding: 12px 58.2px;
   background-color: #f84646;
   color: white;
@@ -247,101 +247,101 @@ header form .header__input--button {
   line-height: 24px;
   width: 160.4px;
 }
-.section__3 img {
+.section3 img {
   display: inline-block;
   border-radius: 8px;
   width: 505.26px;
   height: 480px;
 }
-.section__3 .section__3__blog1,
-.section__3 .section__3__blog2 {
+.section3 .section3__blog1,
+.section3 .section3__blog2 {
   display: flex;
   gap: 85.21px;
 }
-.section__3 .section__3__blog1 {
+.section3 .section3__blog1 {
   margin-bottom: 120px;
 }
 
-.section__4 {
+.section4 {
   background-color: #f4f5f7;
   width: 1440px;
   padding: 60px 0px;
   color: #18191f;
 }
-.section__4 .section__4__title {
+.section4 .section4__title {
   font-size: 48px;
   font-weight: 800;
   line-height: 64px;
   text-align: center;
   margin-bottom: 5px;
 }
-.section__4 .section__4__description {
+.section4 .section4__description {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   text-align: center;
   margin-bottom: 48px;
 }
-.section__4 .logo-container {
+.section4 .logo-container {
   width: 946px;
   height: 336px;
   margin: 0px auto;
   display: flex;
   gap: 24px;
 }
-.section__4 .logo-container img {
+.section4 .logo-container img {
   display: inline-block;
   width: 170px;
   height: 96px;
   margin: auto 0px;
   border-radius: 16px;
 }
-.section__4 .logo-container .column {
+.section4 .logo-container .column {
   display: inline-block;
   height: 336px;
   width: 170px;
 }
-.section__4 .logo-container .column__1,
-.section__4 .logo-container .column__5 {
+.section4 .logo-container .column__1,
+.section4 .logo-container .column__5 {
   padding: 120px 0px;
 }
-.section__4 .logo-container .column__2,
-.section__4 .logo-container .column__4 {
+.section4 .logo-container .column__2,
+.section4 .logo-container .column__4 {
   padding: 60px 0px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 24px;
 }
-.section__4 .logo-container .column__3 {
+.section4 .logo-container .column__3 {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 24px;
 }
 
-.section__5 {
+.section5 {
   width: 1440px;
   padding: 160px 0px;
   text-align: center;
 }
-.section__5 img {
+.section5 img {
   display: inline-block;
   width: 120px;
   height: 120px;
   margin-bottom: 10px;
 }
-.section__5 .section__5--title {
+.section5 .section5--title {
   font-size: 48px;
   font-weight: 800;
   line-height: 32px;
   margin-bottom: 20px;
 }
-.section__5 .section__5--description {
+.section5 .section5--description {
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
   margin-bottom: 30px;
 }
-.section__5 button {
+.section5 button {
   padding: 25px 40px;
   color: white;
   background-color: #f84646;
