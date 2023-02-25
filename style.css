@@ -349,4 +349,30 @@ header form .header__input--button {
   line-height: 20px;
   border: none;
   border-radius: 8px;
+}
+
+footer {
+  width: 1440px;
+  padding: 80px 120px;
+  padding-bottom: 70px;
+  background-color: #f8464a;
+  color: white;
+}
+footer .footer__col--title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+footer .footer__col--content,
+footer .footer__copyright p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+footer .footer__copyright img {
+  width: 32px;
+  height: 32px;
+  margin-right: 24px;
 }/*# sourceMappingURL=style.css.map */
