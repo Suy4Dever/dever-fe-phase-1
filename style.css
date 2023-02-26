@@ -469,4 +469,16 @@ footer .footer {
     width: 1024px;
     margin-bottom: 135px;
   }
+  .section1 .article__introduction .article__introduction--description {
+    width: 852px;
+    height: 109px;
+  }
+  .section1 .article__detail {
+    margin: 0px 135px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 734px;
+    -moz-column-gap: 102.68px;
+         column-gap: 102.68px;
+  }
 }/*# sourceMappingURL=style.css.map */
