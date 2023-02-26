@@ -426,6 +426,22 @@ footer .footer {
 
 @media (max-width: 1024px) {
   header {
-    background-image: none;
+    height: 647px;
+    width: 1024px;
+    background-position-x: -68px;
+  }
+  header nav {
+    margin-left: 250px;
+  }
+  header nav .nav__link:link {
+    margin-right: 36px;
+  }
+  header .header__intro {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 74px;
+    top: 161px;
+    left: 60px;
+    height: 147px;
   }
 }/*# sourceMappingURL=style.css.map */
