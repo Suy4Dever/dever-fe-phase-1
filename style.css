@@ -79,14 +79,14 @@ header form .header__input::-moz-placeholder {
   font-size: 16px;
   line-height: 36px;
   letter-spacing: 0.2px;
-  font-weight: 700;
+  font-weight: 400;
   opacity: 0.4;
 }
 header form .header__input::placeholder {
   font-size: 16px;
   line-height: 36px;
   letter-spacing: 0.2px;
-  font-weight: 700;
+  font-weight: 400;
   opacity: 0.4;
 }
 header form .header__input:focus {
@@ -443,5 +443,25 @@ footer .footer {
     top: 161px;
     left: 60px;
     height: 147px;
+  }
+  header .header__description {
+    font-size: 16px;
+    line-height: 28px;
+    left: 60px;
+    top: 328px;
+    width: 565px;
+  }
+  header form {
+    top: 447px;
+    left: 60px;
+  }
+  header form .header__input {
+    padding: 18px 27px;
+    width: 422px;
+    height: 72px;
+  }
+  header form .header__input--button {
+    padding: 12px 25px;
+    margin-left: -116.75px;
   }
 }/*# sourceMappingURL=style.css.map */
