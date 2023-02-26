@@ -537,7 +537,12 @@ footer {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
       width: 734px;
-      column-gap: 102.68px;
+      column-gap: 103px;
     }
+  }
+
+  .section2 {
+    width: 1024px;
+    padding: 82px 0px;
   }
 }

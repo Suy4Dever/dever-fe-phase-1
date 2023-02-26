@@ -478,7 +478,11 @@ footer .footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     width: 734px;
-    -moz-column-gap: 102.68px;
-         column-gap: 102.68px;
+    -moz-column-gap: 103px;
+         column-gap: 103px;
+  }
+  .section2 {
+    width: 1024px;
+    padding: 82px 0px;
   }
 }/*# sourceMappingURL=style.css.map */
