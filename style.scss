@@ -544,5 +544,18 @@ footer {
   .section2 {
     width: 1024px;
     padding: 82px 0px;
+
+    .section2__box {
+      width: 904px;
+      padding: 0px;
+      margin: 0px auto;
+      gap: 28px;
+
+      p {
+        height: 53px;
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
   }
 }
