@@ -496,4 +496,28 @@ footer .footer {
     font-size: 14px;
     line-height: 22px;
   }
+  .section3 {
+    width: 1024px;
+    padding: 100px 60px;
+  }
+  .section3 .blog-title {
+    font-size: 58px;
+    line-height: 59.5px;
+    margin-bottom: 20px;
+  }
+  .section3 .blog-description {
+    font-size: 14px;
+    line-height: 28.5px;
+    margin-bottom: 46px;
+    width: 428px;
+  }
+  .section3 img {
+    width: 424px;
+    height: 404px;
+  }
+  .section3 .section3__blog1,
+  .section3 .section3__blog2 {
+    display: flex;
+    gap: 52px;
+  }
 }/*# sourceMappingURL=style.css.map */
