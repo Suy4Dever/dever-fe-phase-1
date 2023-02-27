@@ -614,4 +614,19 @@ footer {
   .section5 {
     width: 1024px;
   }
+
+  footer {
+    width: 1024px;
+    padding: 80px 60px;
+    padding-right: 0px;
+    padding-bottom: 70px;
+
+    .footer {
+      gap: 50px;
+    }
+
+    .footer__copyright {
+      margin-right: 60px;
+    }
+  }
 }
