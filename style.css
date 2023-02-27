@@ -391,7 +391,7 @@ footer {
   padding: 80px 120px;
   padding-bottom: 70px;
   background-color: #f8464a;
-  color: white;
+  color: #e6e6e6;
 }
 footer .footer__col--title {
   font-size: 16px;
@@ -401,6 +401,7 @@ footer .footer__col--title {
 }
 footer .footer__col--content,
 footer .footer__copyright p {
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -549,6 +550,10 @@ footer .footer {
   }
   footer .footer {
     gap: 50px;
+  }
+  footer .footer__col--content,
+  footer .footer__copyright p {
+    font-family: "Inter";
   }
   footer .footer__copyright {
     margin-right: 60px;
