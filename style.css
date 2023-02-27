@@ -264,12 +264,6 @@ header form .header__input--button:hover {
   width: 505.26px;
   height: 480px;
 }
-.section3 .section3__blog2--img1440 {
-  display: inline-block;
-}
-.section3 .section3__blog2--img1024 {
-  display: none;
-}
 .section3 .section3__blog1,
 .section3 .section3__blog2 {
   display: flex;
@@ -280,6 +274,9 @@ header form .header__input--button:hover {
 }
 .section3 .section3__blog1 {
   margin-bottom: 120px;
+}
+.section3 .display1024 {
+  display: none;
 }
 
 .section4 {
@@ -532,5 +529,13 @@ footer .footer {
   .section3 .section3__blog2 {
     display: flex;
     gap: 52px;
+  }
+  .section3 .display1440 {
+    display: none;
+  }
+  .section4 {
+    width: 1024px;
+    padding: 45px 0px;
+    padding-bottom: 73px;
   }
 }/*# sourceMappingURL=style.css.map */
