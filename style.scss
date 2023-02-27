@@ -557,11 +557,16 @@ footer {
         line-height: 22px;
       }
     }
+
+    .section2__description {
+      margin-bottom: 55px;
+    }
   }
 
   .section3 {
     width: 1024px;
     padding: 100px 60px;
+    padding-bottom: 160px;
 
     .blog-title {
       font-size: 58px;

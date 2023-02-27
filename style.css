@@ -496,9 +496,13 @@ footer .footer {
     font-size: 14px;
     line-height: 22px;
   }
+  .section2 .section2__description {
+    margin-bottom: 55px;
+  }
   .section3 {
     width: 1024px;
     padding: 100px 60px;
+    padding-bottom: 160px;
   }
   .section3 .blog-title {
     font-size: 58px;
