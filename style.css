@@ -264,10 +264,19 @@ header form .header__input--button:hover {
   width: 505.26px;
   height: 480px;
 }
+.section3 .section3__blog2--img1440 {
+  display: inline-block;
+}
+.section3 .section3__blog2--img1024 {
+  display: none;
+}
 .section3 .section3__blog1,
 .section3 .section3__blog2 {
   display: flex;
   gap: 85.21px;
+}
+.section3 .section3__blog2 {
+  gap: 146.36px;
 }
 .section3 .section3__blog1 {
   margin-bottom: 120px;

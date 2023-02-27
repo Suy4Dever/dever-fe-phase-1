@@ -283,10 +283,22 @@ header {
     height: 480px;
   }
 
+  .section3__blog2--img1440 {
+    display: inline-block;
+  }
+
+  .section3__blog2--img1024 {
+    display: none;
+  }
+
   .section3__blog1,
   .section3__blog2 {
     display: flex;
     gap: 85.21px;
+  }
+
+  .section3__blog2 {
+    gap: 146.36px;
   }
 
   .section3__blog1 {
