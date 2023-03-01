@@ -642,11 +642,44 @@ footer .footer {
   }
   .section2 {
     width: 375px;
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    overflow: hidden;
   }
   .section2 .section2__header {
     font-size: 36px;
     line-height: 47px;
     margin-bottom: 9px;
+  }
+  .section2 .section2__description {
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 67px;
+  }
+  .section2 .section2__box {
+    width: 183px;
+    display: grid;
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .section2 .section2__box p {
+    display: block;
+    height: 41px;
+    line-height: 24.59px;
+    text-align: center;
+  }
+  .section2 .section2__box p.--p1, .section2 .section2__box p.--p2, .section2 .section2__box p.--p3, .section2 .section2__box p.--p4 {
+    width: 100%;
+  }
+  .section2 .section2__box p.--p4 {
+    margin-bottom: 0px;
+  }
+  .section2 .section2__box img {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0px auto;
+    transform: rotate(90deg);
   }
 }/*# sourceMappingURL=style.css.map */
