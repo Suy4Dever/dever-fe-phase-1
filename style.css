@@ -682,4 +682,45 @@ footer .footer {
     margin: 0px auto;
     transform: rotate(90deg);
   }
+  .section3 {
+    width: 375px;
+    padding: 92px 16px;
+    padding-bottom: 0px;
+  }
+  .section3 .blog-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 41.5px;
+    margin-bottom: 20px;
+  }
+  .section3 .blog-description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28.5px;
+    width: 340.97px;
+    margin-bottom: 40px;
+  }
+  .section3 button {
+    width: 100%;
+    padding: 12px auto;
+  }
+  .section3 img {
+    display: block;
+    width: 343px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .section3 .section3__blog1,
+  .section3 .section3__blog2 {
+    display: block;
+  }
+  .section3 .section3__blog1 {
+    margin-bottom: 55px;
+  }
+  .section3 .section3__blog2 {
+    margin-bottom: 70px;
+  }
+  .section3 .display1440 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
