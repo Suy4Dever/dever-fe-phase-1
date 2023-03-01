@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
 }
-
+// @media (max-width: 1440px) and (min-width: 1025px) {
 header {
   overflow: hidden;
   background-image: url("./img/Background-header.png");
@@ -479,8 +479,9 @@ footer {
     margin-bottom: 26px;
   }
 }
+// }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 376px) {
   header {
     height: 647px;
     width: 1024px;
@@ -633,6 +634,72 @@ footer {
 
     .footer__copyright {
       margin-right: 60px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    height: 601px;
+    width: 375px;
+    background: radial-gradient(
+      118.67% 101.66% at 141.47% 78.12%,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+    nav {
+      .nav__link {
+        &:link {
+          display: none;
+        }
+      }
+    }
+
+    .button {
+      display: inline-block !important;
+    }
+
+    .header__intro {
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 58px;
+      top: 137px;
+      left: 20px;
+      text-align: center;
+      width: 335px;
+      height: 160px;
+    }
+
+    .header__description {
+      font-size: 12px;
+      line-height: 23px;
+      text-align: center;
+      width: 335px;
+      height: 87px;
+      top: 327px;
+      left: 20px;
+    }
+
+    form {
+      left: 20px;
+      top: 457px;
+
+      .header__input {
+        padding: 15px 20px;
+        width: 335px;
+        height: 60px;
+        &::placeholder {
+          font-size: 14px;
+        }
+      }
+
+      .header__input--button {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 15px 18px;
+        margin-left: -94.46px;
+      }
     }
   }
 }
