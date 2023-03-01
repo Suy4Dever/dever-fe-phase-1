@@ -706,6 +706,7 @@ footer {
   .section1 {
     width: 375px;
     margin-bottom: 100px;
+    text-align: center;
 
     .article__introduction {
       .article__introduction--title {
@@ -722,6 +723,34 @@ footer {
         width: 334px;
         height: 109px;
       }
+    }
+
+    .article__detail {
+      display: block;
+      margin: 0px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 100px;
+
+      .article__detail--box {
+        margin-top: 90px;
+        width: 100%;
+      }
+
+      .file-icon-box {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .section2 {
+    width: 375px;
+    padding: 50px 0px;
+
+    .section2__header {
+      font-size: 36px;
+      line-height: 47px;
+      margin-bottom: 9px;
     }
   }
 }
