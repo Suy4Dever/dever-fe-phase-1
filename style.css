@@ -134,6 +134,7 @@ header form .header__input--button:hover {
   margin-top: 30px;
   width: 994px;
   height: 110px;
+  letter-spacing: 0.2px;
 }
 .section1 .article__detail {
   width: 100%;
