@@ -836,4 +836,18 @@ footer .footer {
   footer .footer {
     display: block;
   }
+  footer .footer div img {
+    width: 32px;
+    height: 32px;
+  }
+  footer .footer__copyright {
+    display: grid;
+    row-gap: 65px;
+  }
+  footer .footer__copyright p {
+    order: 2;
+  }
+  footer .footer__copyright div {
+    order: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
