@@ -927,4 +927,64 @@ footer {
       }
     }
   }
+
+  .section5 {
+    width: 375px;
+    padding: 0px;
+    overflow: hidden;
+
+    .section5--logo {
+      img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+        margin-top: 90px;
+      }
+
+      .ellipse {
+        img {
+          width: 45.75px !important;
+          height: 45.75px !important;
+          left: 41.25px;
+          top: 4.5px;
+        }
+      }
+    }
+
+    .section5--title {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .section5--description {
+      font-size: 14px;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 11px 20.5px;
+      font-size: 16px;
+      margin-bottom: 82px;
+    }
+  }
+
+  footer {
+    width: 375px;
+    padding: 80px 20px;
+    padding-bottom: 74px;
+
+    .footer__col {
+      margin-bottom: 49px;
+
+      &:last-child {
+        margin-bottom: 30px;
+      }
+    }
+
+    .footer {
+      display: block;
+      // margin-bottom: 90px;
+    }
+  }
 }
