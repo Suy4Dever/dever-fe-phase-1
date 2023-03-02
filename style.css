@@ -279,6 +279,9 @@ header form .header__input--button:hover {
 .section3 .display1024 {
   display: none;
 }
+.section3 .display375 {
+  display: none;
+}
 
 .section4 {
   background-color: #f4f5f7;
@@ -532,6 +535,9 @@ footer .footer {
   .section3 .display1440 {
     display: none;
   }
+  .section3 .display375 {
+    display: none;
+  }
   .section4 {
     width: 1024px;
     padding: 45px 0px;
@@ -723,5 +729,11 @@ footer .footer {
   }
   .section3 .display1440 {
     display: none;
+  }
+  .section3 .display10241044 {
+    display: none;
+  }
+  .section3 .display375 {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
