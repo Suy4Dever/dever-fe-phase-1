@@ -567,15 +567,35 @@ footer .footer {
   header {
     height: 601px;
     width: 375px;
-    background: radial-gradient(118.67% 101.66% at 141.47% 78.12%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: url("./img/Background-header.png");
+    background-repeat: none;
+    background-position-x: -490px;
+  }
+  header nav {
+    opacity: 1 !important;
   }
   header nav .nav__link:link {
     display: none;
   }
+  header nav .button {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    margin-right: 0px !important;
+  }
+  header nav .list-img {
+    display: inline-block !important;
+    position: absolute;
+    top: 39px;
+    left: 20px;
+  }
   header .button {
+    opacity: 1 !important;
     display: inline-block !important;
   }
   header .header__intro {
+    opacity: 1 !important;
     font-weight: 800;
     font-size: 42px;
     line-height: 58px;
@@ -586,6 +606,7 @@ footer .footer {
     height: 160px;
   }
   header .header__description {
+    opacity: 1 !important;
     font-size: 12px;
     line-height: 23px;
     text-align: center;
@@ -595,6 +616,7 @@ footer .footer {
     left: 20px;
   }
   header form {
+    opacity: 1 !important;
     left: 20px;
     top: 457px;
   }

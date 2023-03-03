@@ -651,25 +651,46 @@ footer {
   header {
     height: 601px;
     width: 375px;
-    background: radial-gradient(
-      118.67% 101.66% at 141.47% 78.12%,
-      #ffffff 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
-
+    // background: radial-gradient(
+    //   118.67% 101.66% at 141.47% 78.12%,
+    //   #ffffff 0%,
+    //   rgba(255, 255, 255, 0) 100%
+    // );
+    background-image: url("./img/Background-header.png");
+    background-repeat: none;
+    background-position-x: -490px;
+    // opacity: 0.4;
     nav {
+      opacity: 1 !important;
       .nav__link {
         &:link {
           display: none;
         }
       }
+
+      .button {
+        display: inline-block;
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        margin-right: 0px !important;
+      }
+
+      .list-img {
+        display: inline-block !important;
+        position: absolute;
+        top: 39px;
+        left: 20px;
+      }
     }
 
     .button {
+      opacity: 1 !important;
       display: inline-block !important;
     }
 
     .header__intro {
+      opacity: 1 !important;
       font-weight: 800;
       font-size: 42px;
       line-height: 58px;
@@ -681,6 +702,7 @@ footer {
     }
 
     .header__description {
+      opacity: 1 !important;
       font-size: 12px;
       line-height: 23px;
       text-align: center;
@@ -691,6 +713,7 @@ footer {
     }
 
     form {
+      opacity: 1 !important;
       left: 20px;
       top: 457px;
 
